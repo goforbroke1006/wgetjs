@@ -1,5 +1,5 @@
 SERVICE_NAME=wgetjs
-ENTRY_POINT=./cmd/wgetjs.go
+ENTRY_POINT=./cmd/wgetjs/wgetjs.go
 
 all:
 	echo 'undefined task'
