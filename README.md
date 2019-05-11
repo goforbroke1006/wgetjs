@@ -12,5 +12,5 @@ Download html and allow JS do work (smart wget)
 ### Install
 
 ```bash
-go get -u github.com/goforbroke1006/wgetjs
+go get -u github.com/goforbroke1006/wgetjs/cmd/wgetjs
 ```
