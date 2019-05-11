@@ -1,6 +1,15 @@
 # wgetjs
 Download html and allow JS do work (smart wget)
 
+### Arguments
+
+
+| Name          | Description                                |
+|---------------|--------------------------------------------|
+| target-url    | Page address                               |
+| ready-timeout | How many time you allow for JS affect page |
+| output        | Save result to file                        |
+
 ### Usage
 
 ```bash
