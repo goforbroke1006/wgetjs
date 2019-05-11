@@ -26,10 +26,12 @@ func init() {
 func main() {
 	if nil == targetUrl || len(*targetUrl) == 0 {
 		fmt.Println("Bad option: target-url can not be empty!")
+		return
 	}
 
 	if nil == readyTimeout || *readyTimeout == 0 {
 		fmt.Println("Bad option: ready-timeout must be great than zero!")
+		return
 	}
 
 	ctx, cancel := chromedp.NewContext(context.Background())
