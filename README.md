@@ -9,4 +9,8 @@ Download html and allow JS do work (smart wget)
     --ready-timeout=3500 \
     > ~/result.html
 ```
+### Install
 
+```bash
+go get -u github.com/goforbroke1006/wgetjs
+```
